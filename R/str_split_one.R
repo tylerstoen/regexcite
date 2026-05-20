@@ -66,7 +66,7 @@ str_split_nums <- function(string, pattern, n=Inf) {
     nums <- suppressWarnings(as.numeric(parts))
 
     if (any(is.na(nums))) {
-      warning("String includes non-numeric characters", call. = FALSE)
+      warning("String includes non-numeric characters")
     }
 
     nums
