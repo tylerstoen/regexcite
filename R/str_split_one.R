@@ -46,7 +46,7 @@ str_split_comma <- function(string, n = Inf) {
 
 
 #' Split a string of numbers
-#' @param string A character vector of numbers with, at most, one element.
+#' @param string A character vector with, at most, one element.
 #'
 #' @return A numeric vector.
 #' @export
